@@ -1,9 +1,9 @@
-export const dynamic = 'force-dynamic';
-
 import Link from 'next/link';
 
 import SearchBar from '../components/SearchBar';
 import Pagination from '../components/Pagination';
+
+export const dynamic = 'force-dynamic';
 
 // @ts-expect-error "query has an implicit any type"
 async function getProperties(query, page) {
